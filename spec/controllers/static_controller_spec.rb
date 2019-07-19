@@ -2,9 +2,9 @@ require 'rails_helper'
 
 RSpec.describe StaticController, type: :controller do
 
-  describe "GET #hello_world" do
+  describe "GET #how-are-you" do
     it "returns http success" do
-      get :hello_world
+      get 'how-are-you'
       expect(response).to have_http_status(:success)
     end
   end
